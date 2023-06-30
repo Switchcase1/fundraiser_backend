@@ -1,4 +1,4 @@
- @include('includes.header')
+@include('includes.header')
  
  <div id="layoutSidenav_content">
                 <main>
@@ -20,8 +20,8 @@
                                             <div class="row mb-3">
                                                 <div class="col-md-12">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" name="convince_fee" step=".01" type="number" min="0" placeholder="Enter Title" value="{{$setting->convince_fee}}" required/>
-                                                        <label for="inputFirstName">Convince Fee</label>
+                                                        <input class="form-control" name="convince_fee" step=".01" type="number" min="0" placeholder="Enter Fee" value="{{$setting->convince_fee}}" required/>
+                                                        <label for="inputFirstName">Convince Fee %</label>
                                                     </div>
                                                 </div>
                                             </div>
